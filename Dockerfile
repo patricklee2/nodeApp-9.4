@@ -5,6 +5,7 @@ LABEL maintainer="Azure App Services Container Images <appsvc-images@microsoft.c
 COPY index.js /home/site/wwwroot/index.js
 COPY init_script /home/site/wwwroot
 
-RUN chmod u+x /home/site/wwwroot/init_script.sh
+RUN cd /home/site/wwwroot \
+ && npm install 
 
-
+ENTRYPOINT ["/opt/startup/init_container.sh"]
