@@ -1,7 +1,7 @@
 module.exports = {
   apps : [{
-    name: 'index',
-    script: 'index.js',
+    name: 'appcmdline',
+    script: 'appcmdline.js',
 
     // Options reference: https://pm2.io/doc/en/runtime/reference/ecosystem-file/
     args: '',

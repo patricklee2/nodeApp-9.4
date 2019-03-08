@@ -2,9 +2,9 @@
   "name": "express-helloworld",
   "version": "1.0.0",
   "description": "",
-  "main": "express.js",
+  "main": "appcmdline.js",
   "scripts": {
-    "start": "node express.js"
+    "start": "node appcmdline.js"
   },
   "repository": {
     "type": "git",
